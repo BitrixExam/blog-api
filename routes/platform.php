@@ -85,6 +85,7 @@ Route::screen('roles', RoleListScreen::class)
         ->push(__('Roles'), route('platform.systems.roles')));
 
 // Example...
+/*
 Route::screen('example', ExampleScreen::class)
     ->name('platform.example')
     ->breadcrumbs(fn (Trail $trail) => $trail
@@ -100,5 +101,5 @@ Route::screen('/examples/layouts', ExampleLayoutsScreen::class)->name('platform.
 Route::screen('/examples/grid', ExampleGridScreen::class)->name('platform.example.grid');
 Route::screen('/examples/charts', ExampleChartsScreen::class)->name('platform.example.charts');
 Route::screen('/examples/cards', ExampleCardsScreen::class)->name('platform.example.cards');
-
+*/
 // Route::screen('idea', Idea::class, 'platform.screens.idea');
